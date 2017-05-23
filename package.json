@@ -8,11 +8,18 @@
     "start": "node server/app.js"
   },
   "dependencies": {
+    "angular": "^1.6.4",
     "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "mongoose": "^4.7.6"
   },
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0"
   }
 }

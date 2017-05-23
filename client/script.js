@@ -1,6 +1,6 @@
 var myApp = angular.module('myApp', []);
 
-myApp.controller('HeroController', function(HeroService) {
+myApp.controller('HeroController', ['HeroService', function(HeroService) {
   console.log('NG');
   // grab the view model
   var vm = this;
@@ -31,4 +31,4 @@ myApp.controller('HeroController', function(HeroService) {
 
   // when controller loads it will get all heros
   vm.getHero();
-});
+}]);
