@@ -12,6 +12,13 @@ Follow the steps below to get Grunt working in this project.
 	- Make sure the Angular syntax works or set mangle to false.
 	- You will need to minify your controllers and services into separate files.
 	- Don't forget to npm install with `--save-dev` the contrib for minification.
+
+	inject $http where ever 
+	```
+	myApp.service('HeroService', ['$http', function($http) {
+	```
+
+
 4. Add Grunt copy. Copy angular from `node_modules` to `vendors`. Make sure your app still works.
 	- You might need to npm install angular as a dependency
 	- Don't forget to npm install with `--save-dev` the contrib for copying.
